@@ -60,4 +60,5 @@ class Rectangle:
         self.upper_right = upper_right
 
     def area(self):
+        """Calculates the area of the rectangle and takes no arguments"""
         return (self.upper_right.x - self.lower_left.x) * (self.upper_right.y - self.lower_left.y)
